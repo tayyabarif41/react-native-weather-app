@@ -1,7 +1,7 @@
 import React,{ useState, useRef, useEffect } from'react';
 import {View, StyleSheet, Text, Button, Alert} from 'react-native';
 import NumberContainer from '../components/NumberContainer';
-
+// Dummy Comment
 const generateRandomNumber = (min, max, exclude) => {
     min = Math.ceil(min);
     max = Math.floor(max);
